@@ -1,0 +1,38 @@
+ // Define an Airplane class
+class Airplane {
+    // Fields (class variables)
+    String model;
+    int capacity;
+    double fuelEfficiency;
+
+    // Constructor
+    public Airplane(String model, int capacity, double fuelEfficiency) {
+        this.model = model;
+        this.capacity = capacity;
+        this.fuelEfficiency = fuelEfficiency;
+    }
+
+    // Method to display airplane information
+    public void displayInfo() {
+        System.out.println("Model: " + model);
+        System.out.println("Capacity: " + capacity + " passengers");
+        System.out.println("Fuel Efficiency: " + fuelEfficiency + " km per liter");
+    }
+
+    // Main method to demonstrate the differences
+    public static void main(String[] args) {
+        // Create an object of Airplane class
+        Airplane boeing747 = new Airplane("Boeing 747", 416, 0.2);
+
+        // Access and display information using the object
+        System.out.println("The first object is:");
+        boeing747.displayInfo();
+
+        // Create another object of Airplane class
+        Airplane airbusA380 = new Airplane("Airbus A380", 853, 0.18);
+
+        // Access and display information using the second object
+        System.out.println("\nThe next object is:");
+        airbusA380.displayInfo();
+    }
+}
