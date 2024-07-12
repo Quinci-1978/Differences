@@ -1,0 +1,12 @@
+C:\Users\QWalk\.jdks\openjdk-22.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\lib\idea_rt.jar=55680:C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\QWalk\IdeaProjects\Difference-Objects-Classes\out\production\Difference-Objects-Classes Airplane
+The first object is:
+Model: Boeing 747
+Capacity: 416 passengers
+Fuel Efficiency: 0.2 km per liter
+
+The next object is:
+Model: Airbus A380
+Capacity: 853 passengers
+Fuel Efficiency: 0.18 km per liter
+
+Process finished with exit code 0
